@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #1C6BB5;
+    text-align: center;
+}
+
+nav {
+    background-color: #1C6BB5;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    background-color: #1C6BB5;
+    color: white;
+    padding: 20px;
+}
