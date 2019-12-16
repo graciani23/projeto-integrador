@@ -13,6 +13,12 @@ header {
     text-align: center;
 }
 
+nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 nav {
     background-color: #1C6BB5;
     text-align: center;
@@ -29,8 +35,11 @@ nav ul li a {
     color: white;
 }
 
-ul li a:hover {
-    font-weight: bolder;
+
+.container img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
 }
 
 footer {
@@ -38,4 +47,10 @@ footer {
     background-color: #1C6BB5;
     color: white;
     padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
