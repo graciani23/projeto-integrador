@@ -13,9 +13,14 @@ header {
     text-align: center;
 }
 
+.img-carousel {
+    height: 400px;
+    object-fit: cover;
+}
+
 nav .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -42,19 +47,48 @@ nav ul li a {
     padding: 2px;
 }
 
-
-main form {
-    width: 70%;
-    margin: 0;
-    background-color: #1C6BB5;
-    padding: 30px;
-    margin: 10px auto 30px auto;
-    color: white;
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 main h3 {
     color: #1C6BB5;
     text-align: center;
+}
+
+main .login, main .cadastro {
+    width: 100%;
+}
+
+.login {
+    margin: 15px 0;
+}
+
+.login form small a {
+    text-decoration: none;
+    color: white;
+}
+
+.login form small a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro {
+    border-left: 1px solid rgb(207, 204, 204);
+    margin: 15px 0;
+}
+
+
+main form {
+    width: 80%;
+    margin: 0;
+    background-color: #1C6BB5;
+    padding: 30px;
+    margin: 10px auto 30px auto;
+    color: white;
 }
 
 input[type=text],
@@ -63,11 +97,21 @@ input[type=password],
 input[type=number] {
     width: 100%;
     margin: 5px 0;
+    border-radius: 5px;
 }
 
 button {
     width: 40%;
     margin: 5px 0;
+    border-radius: 5px;
+}
+.botoes-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+form button a:hover {
+    text-decoration: none;
 }
 
 footer {
@@ -79,6 +123,12 @@ footer {
 
 footer .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.footer-idioma {
+    display: flex;
     align-items: center;
 }
