@@ -6,4 +6,5 @@ Esse projeto tem como objetivo ajudar os refugiados na busca por vagas de empreg
 ## Techs:
 * HTML;
 * CSS;
-* JavaScript
+* JavaScript;
+* PHP
