@@ -43,10 +43,24 @@ nav ul li a {
 }
 
  /* bandeiras */
-.container img {
+nav > .container img {
     width: 40px;
     height: 40px;
     padding: 2px;
+}
+
+ /* bandeiras */
+ footer > .container img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+}
+
+ /* logos */
+ section > .row img {
+    width: 100px;
+    height: 80px;
+    padding: 5px;
 }
 
 
@@ -68,4 +82,22 @@ footer .container {
 .footer-idioma {
     display: flex;
     align-items: center;
+}
+
+h3{
+    color: #1C6BB5;
+    padding: 8px;
+}
+
+.display-4 {
+    color: #1C6BB5;
+}
+
+h2 {
+    text-align: center;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
 }
