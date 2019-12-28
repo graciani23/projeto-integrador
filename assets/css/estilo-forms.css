@@ -81,7 +81,7 @@ main .login, main .cadastro {
 main form {
     width: 80%;
     margin: 0;
-    background-color: #1C6BB5;
+    /*background-color: #1C6BB5;*/
     padding: 30px;
     margin: 10px auto 30px auto;
     color: white;
