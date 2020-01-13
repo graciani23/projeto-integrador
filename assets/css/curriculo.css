@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu de navegação */
+
+nav{
+    background-color: #1C6BB5;
+}
+
+nav .container {
+    list-style: none;
+    
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding: 15px;
+}
+
+nav .container ul li {
+    display: inline;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+/* Inicio main */
+
+.foto > img {
+    width: 300px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais > img {
+    width: 30px;
+}
+
+.info-pessoais li {
+    list-style: none;
+}
+
+.endereço li {
+    list-style: none;
+}
+
+.info-contato li{
+    list-style: none;
+}
+
+.experiencia li{
+    list-style: none;
+}
+
+.formacao-academica li{
+    list-style: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
