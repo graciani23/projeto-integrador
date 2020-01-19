@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contato</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,10 +16,10 @@
 
 </head>
 <body>
-    <main>
-        <h3>FAÇA PARTE DO NOSSO PROJETO</h3>
+<Section>
+        <h3>Dúvidas?</h3>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <h4>Quero mudar minha vida</h4>
                 <div class="form">    
                     <h5 class="card-title">SOU REFUGIADO</h5>
@@ -40,31 +40,8 @@
                     </div>
                 </div>      
             </div>
-        
-            <div class="col-sm-6">
-                <h4>Quero mudar outras vidas</h4>  
-                <div class="form">  
-                    <h5 class="card-title">SOU EMPRESA</h5>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome de usuário">                
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1"></label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                        </div>
-                    <div class="form-group form-check">
-                        <a href="http://">Esqueci minha senha</a>
-                        <a href="http://">Quero me cadastrar</a>
-                    <div>
-                        <button type="submit" class="btn btn-light">Entrar</button>
-                    </div>
-                </div>
-            </div>  
-
-        </div>
-    </main>
     
+    </Section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

@@ -13,6 +13,7 @@
         require('./assets/includes/menu.php');
         require('./assets/includes/header.php');
         require('./assets/includes/cadastre.php');
+        require('./assets/includes/contato.php');
 
     ?>
 <body>
