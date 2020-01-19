@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+    background-color: #343A40;
+}
+
+.row {
+    display: flex;
+    padding: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+ .form {
+    background-color: #55cbb3;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-title {
+    text-align: center;
+    color:rgb(54, 21, 99);
+    font-family: 'Roboto Slab', serif !IMPORTANT;
+    font-weight: 900;
+    ;
+}
+
+.label {
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+ button {
+    background-color: rgb(54, 21, 99)!important;
+    color: white!important;
+    margin-top: 10px!important;
+    border: navy!important;
+
+ }

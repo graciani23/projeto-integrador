@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+header {
+    text-align: center;
+}
+
+.img-carousel {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* menu de navegação */
+
+nav .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav ul li:hover {
+    background-color:#1C6BB5;
+    
+}
+
+
+
+nav > .container > ul > li > a {
+    text-decoration: none;
+    color: #55cbb3;
+}
+
+nav > .container > ul > li > a:hover {
+    color:white;
+        
+    }
+
+ /* bandeiras */
+nav > .container img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    cursor: pointer;
+}
