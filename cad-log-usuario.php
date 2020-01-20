@@ -25,8 +25,8 @@ require './assets/includes/menu.php';
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="genero" id="masculino" value="option1" checked>
                     <label class="form-check-label" for="masculino">Masculino</label>
-                    <input class="form-check-input" type="radio" name="genero" id="feminino" value="option1">
-                    <label class="form-check-label" for="feminino">Feminino</label>
+                    <input class="form-check-input-fem" type="radio" name="genero" id="feminino" value="option1">
+                    <label class="form-check-label fem" for="feminino">Feminino</label>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">

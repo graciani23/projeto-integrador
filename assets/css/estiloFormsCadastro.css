@@ -12,6 +12,15 @@ body {
     color: black;
 }
 
+.form-check {
+    padding-bottom: 10px;
+}
+
+
+.form-check .form-check-input-fem {
+    margin-left: 10px;
+
+}
 .container {
     display: flex;
     justify-content: space-around;
