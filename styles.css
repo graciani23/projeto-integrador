@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	height:100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+header>div{
+    font-family: 'Montserrat', sans-serif;
+    color: #1C6BB5;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 370px 0 40px;
+}
+
+/* FIM DO HEADER - PRIMEIRA LINHA */
+
+/* INÍCIO DA SEGUNDA LINHA - LINKS PARA ACESSO DA EMPRESA*/
+
+nav {
+	background-color: #1c6bb5;
+}
+
+nav>div>ul {
+	margin:0;
+	padding: 0;
+	display: flex;
+    justify-content: space-between; 
+    list-style: none;
+}
+
+nav>div>ul>li>a{
+	text-decoration: none;
+	padding: 20px 70px 20px 70px;
+	display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+nav>div>ul>li>a:hover{
+    color: #FFD12E;
+    font-weight: bold;
+}
+
+/* FIM DA SEGUNDA LINHA */
+
+/* INÍCIO DA TERCEIRA LINHA - MENU DE BUSCA */
+
+.buscadecandidato {
+    margin:0;
+	padding: 0;
+	display: flex;
+    justify-content: space-between; 
+    padding: 0 70px 0 70px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #524942;
+    border-top:1px solid #524942;
+	border-bottom:1px solid #524942;
+}
+div>form{
+    display: flex;
+}
+
+div>form>input{
+    font-size: 16px;
+    border: 1px solid #524942;
+    width: 220px;
+    height: 31px;
+    margin-top: 15px;
+}
+
+div>form>button{
+    border: 1px solid #524942;
+    color: #524942;
+    width: 31px;
+    height: 31px;
+    margin-top: 15px;
+} 
+
+div>form>button>img{
+    border: 1px solid #524942;
+}
+
+/* FIM DA TERCEIRA LINHA */
+
+/* INÍCIO DA DIV COM O RESULTADOS DA BUSCA */
+
+#resultado{
+    color: #1C6BB5;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 65px;
+}
+
+.candidato{
+    width: 220px;
+    height: 330px;
+    left: 88px;
+    top: 301px;
+    background: #ffffff;
+    border: 1px solid #1C6BB5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #8faecb;
+}
+
+.candidato img{
+    width: 200px;
+    height: 200px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 90px;
+    border: 1px solid #1C6BB5;
+}
+
+.candidato h3{
+    margin-bottom: -2px;
+    margin-left: 5px;
+}
+
+.candidato p{
+    margin-bottom: -1px; 
+    margin-top: -2px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.candidato a{
+    color: #1C6BB5;
+    padding-top: 20px;
+    margin-left: 55px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+main {
+	padding: 10px;
+}
+
+.lado-lado>main{
+	display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2);
+	align-items: baseline;
+    grid-gap: 15px;
+    margin-left: 65px;
+}
+
+.lado-lado>main>.candidato{
+	padding: 10px;
+} 
+
+.footer{
+    background-color: #1C6BB5;
+    color: #ffffff;
+    height: 50px;
+}
+
+.footer p{
+   padding-top: 15px;
+   margin-left: 65px;
+}
