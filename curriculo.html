@@ -26,45 +26,66 @@
         <div class="row border p-5 my-3">
         <div class="foto col-md-12">   
             <img src="./assets/img/refugiado.jpg" alt="Foto Perfil">
-            <h2>Kaysar Dadour</h2>
+            <form name="nome" action="" method="GET">
+                <input type="text" placeholder="Digite seu nome" required="required">
+            </form>
         </div>
         <div class="dados-pessoais col-md-12">
             <a class="botao" href="">Editar</a>
-            <h4>Dados Pessoais</h4>
-            <div class="info-pessoais">
-                <ul>
-                    <li>Idade: 33 anos</li>
-                    <li>Possui filhos: Sim</li>
-                    <li>Estado Civil: Solteiro</li>
-                    <li>Nacionalidade: Sírio</li>
-                    <li>Documento: 212.582.256</li>
-                </ul>
-            </div>
+        <form name="dadosPessoais" action="" method="GET">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                Data Nascimento: <input type="number"><br>
+                Gênero: <input type="radio" id="feminino" name="genero" value="feminino" checked>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino" checked>
+                <label for="masculino">Masculino</label><br>
+                Idade: <input type="number"><br>
+                Estado Civil: <select name="estadoCivil" required="required">
+                    <option value="solteiro" selected="selected">Solteiro(a)</option>
+                    <option value="sasado">Casado(a)</option>
+                    <option value="separado">Separado(a)</option>
+                    <option value="sivorciado">Divorciado(a)</option>
+                    <option value="viuvo"<Viuvo(a)></option>
+                </select><br>
+                Nacionalidade: <select name="nacionalidade" required="required">
+                        <option value="brasil" selected="selected">Brasil</option>
+                        <option value="afeganistao">Afeganistão</option>
+                        <option value="africadoSul">África do Sul</option>
+                        <option value="albania">Albânia</option>
+                        <option value="alemanha">Alemanha</option>
+                        <option value="andorra">Andorra</option>
+                        <option value="angola">Angola</option>
+                        <option value="anguilla">Anguilla</option>
+                    </select><br>
+                Documento: <input type="number"><br>
+            </fieldset>
+        </form>
         </div>
         <div class="endereço col-md-12">
             <a class="botao" href="">Editar</a>
-            <h4>Endereço</h4>
-            <div class="endereço">
-                <ul>
-                    <li>País: Brasil</li>
-                    <li>Estado: São Paulo</li>
-                    <li>Cidade: São Bernardo do Campo</li>
-                    <li>Endreço: Av. Dr. Vital, 550</li>
-                    <li>Bairro: Paulicéia</li>
-                    <li>CEP: 04224-030</li>
-                </ul>
-            </div>
+        <form name="endereco" action="" method="GET">
+            <fieldset>
+                <legend>Endereço</legend>
+                    País: <input type="text" placeholder="" required="required"><br>
+                    Estado: <input type="text" placeholder="" required="required"><br>
+                    Cidade: <input type="text" placeholder="" required="required"><br>
+                    Logradouro: <input type="text" placeholder="informe rua/av/trav" required="required"><br>
+                    Bairro: <input type="text" placeholder="" required="required"><br>
+                    CEP: <input type="number" placeholder="somente números" required="required"><br>
+            </fieldset>
+        </form>    
         </div>
         <div class="info-contato col-md-12">
             <a class="botao" href="">Editar</a>
-            <h4>Informações de Contatos</h4>
-            <div class="info-contato">
-                <ul>
-                    <li>e-mail: kayzar.dadour@gmail.com</li>
-                    <li>Telefone: (11) 1234-5678</li>
-                    <li>Celular: (11) 91234-5678</li>
-                </ul>
-            </div>
+            <form name="endereco" action="" method="GET">
+                <fieldset>
+                    <legend>Contato</legend>
+                        E-mail: <input type="email" placeholder="" required="required"><br>
+                        Telefone: <input type="number" placeholder="" required="required"><br>
+                        Celular: <input type="number" placeholder="" required="required"><br>
+                </fieldset>   
+            </form>     
         </div>
         <div class="redes-sociais col-md-12">
             <a class="botao" href="">Editar</a>
@@ -76,32 +97,38 @@
                     <a href="https://www.instagram.com/">Instagram: @kaysar </a>
                     <img src="./assets/icones/quadrado-facebook.png" alt="facebook">
                     <a href="https://www.facebook.com/">Facebook: Kaysar Dadour</a>
-                </div>border
+                </div>
             </div>
         </div>
         <div class="row border p-5 my-3">
         <div class="objetivo-profissional col-md-12">
             <a class="botao" href="">Editar</a>
             <h4>Objetivo Profissional</h4>
-            <div class="objetivo-profissional">
-                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio vero excepturi modi ea ipsa voluptas, error maxime dolore, voluptate similique architecto repellat quos atque nulla fugiat. At nam consequuntur eveniet!</h6>
-            </div>
+            <form name="objetivoProfissional" action="" method="GET">
+                <textarea name="objetivoProfissional"placeholder="Digite seus objetivos profissionais"></textarea>
+            </form>
         </div>
         <div class="areas-interesse col-md-12">
             <a class="botao" href="">Editar</a>
             <h4>Areas de Interesse</h4>
-                <div class="areas-interesse">
-                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio vero excepturi modi ea ipsa voluptas, error maxime dolore, voluptate similique architecto repellat quos atque nulla fugiat. At nam consequuntur eveniet!</h6>
-                </div>
-            </div>
+            <form name="areasDeInteresses" action="" method="GET">
+                <select name="areas" required="required">
+                    <option value="administrativo">Administrativo</option>
+                    <option value="financeiro">Financeiro</option>
+                    <option value="recursosHumanos">Recursos Humanos</option>
+                    <option value="setorComercial">Setor Comercial</option>
+                    <option value="setorOperacional">Setor Operacional</option>
+                    <option value="tecnologia">Tecnologia</option>
+                </select>
+            </form>
         </div>
         <div class="row border p-5 my-3">
-        <div class="resumo-profissional col-md-12">
-            <a class="botao" href="">Editar</a>
-            <h4>Resumo Profissional</h4>
-                <div class="resumo-profissional">
-                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio vero excepturi modi ea ipsa voluptas, error maxime dolore, voluptate similique architecto repellat quos atque nulla fugiat. At nam consequuntur eveniet!</h6>
-                </div>
+            <div class="resumo-profissional col-md-12">
+                <a class="botao" href="">Editar</a>
+                <h4>Resumo Profissional</h4>
+                <form name="resumoProfissional" action="" method="GET">
+                    <textarea name="resumoProfissional"placeholder="DIgite um resumo das suas qualificaões profissionais"></textarea>
+                </form>
             </div>
         </div>
         <div class="row border p-5 my-3">
@@ -112,7 +139,7 @@
                     <ul>
                         <li>Empresa: Syriatel</li>
                         <li>Cargo: Gerente de comunicação - 11/2016 à 08/2018</li>
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos doloremque, illo pariatur, optio laudantium nobis ipsa ad, officiis debitis ducimus modi? Consectetur maiores laboriosam iste! Veniam hic explicabo tenetur.</h6>
+                        <h6>Lormem ipsum dolor sit amet consectetur adipisicing elit. Et quos doloremque, illo pariatur, optio laudantium nobis ipsa ad, officiis debitis ducimus modi? Consectetur maiores laboriosam iste! Veniam hic explicabo tenetur.</h6>
                     </ul>
                     <ul>
                         <li>Empresa: Syriatel</li>
