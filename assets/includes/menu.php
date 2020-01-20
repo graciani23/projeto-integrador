@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">>
+<nav class="navbar navbar-dark bg-dark">
     <div class="container">
         <ul>
-            <li><a href="sobre-nos.html">Sobre nós</a></li>
-            <li><a href="cad-log-usuario.html">Área do Usuário</a></li>
-            <li><a href="cad-log-empresa.html">Área da Empresa</a></li>
+            <li><a href="sobre-nos.php">Sobre nós</a></li>
+            <li><a href="cad-log-usuario.php">Área do Usuário</a></li>
+            <li><a href="cad-log-empresa.php">Área da Empresa</a></li>
             <li><a href="#">Contatos</a></li>
         </ul>
         <div class="img-cabecalho">

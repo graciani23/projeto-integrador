@@ -8,46 +8,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background-color: #1C6BB5;
-    text-align: center;
+.cad {
+    color: black;
 }
 
-/* menu de navegação */
-nav .container {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
 
-nav {
-    background-color: #1C6BB5;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-/* bandeiras */
-.container img {
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-}
-
-main {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
 
 main h3 {
     color: #1C6BB5;
@@ -73,7 +43,7 @@ main .login, main .cadastro {
 }
 
 .cadastro {
-    border-left: 1px solid rgb(207, 204, 204);
+    
     margin: 15px 0;
 }
 
@@ -96,6 +66,7 @@ input[type=number] {
     border-radius: 5px;
 }
 
+
 /*
 button {
     width: 40%;
@@ -116,7 +87,7 @@ form button a:hover {
 
 footer {
     text-align: center;
-    background-color: #1C6BB5;
+    background-color: rgb(122, 54, 67);
     color: white;
     padding: 20px;
 }

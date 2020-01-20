@@ -7,16 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/estilo-forms.css">
+    <link rel="stylesheet" href="./assets/css/estiloFormsCadastro.css">
     <title>Cadastro e Login - Empresa</title>
 </head>
 <body>
     <?php
-        require('./assets/includes/header.php');
+        require('./assets/includes/menu.php');
     ?>
     <main class="container">
         <section class="login">
             <form>
+            <h3>Faça seu login</h3>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de email</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
@@ -34,6 +35,7 @@
         </section>
         <section class="cadastro">
             <form>
+            <h3>Faça seu cadastro</h3>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
