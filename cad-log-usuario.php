@@ -18,6 +18,7 @@ require './assets/includes/menu.php';
 
         <section class="cadastro">
             <form class="cad">
+            <p>Cadastre seu currículo e tenha acesso aos nossos serviços</p>
                 <div class="form-group">
                     <label for="inputName">Nome Completo</label>
                     <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome completo">
@@ -28,6 +29,20 @@ require './assets/includes/menu.php';
                     <input class="form-check-input-fem" type="radio" name="genero" id="feminino" value="option1">
                     <label class="form-check-label fem" for="feminino">Feminino</label>
                 </div>
+                <div class="form-group row">
+                    <label for="example-date-input" class="col-2 col-form-label">Data de nascimento</label>
+                    <div class="col-10">
+                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                    </div>
+                </div>
+                    <div class="form-group">
+                        <label for="inputUser">Usuário</label>
+                        <input type="text" class="form-control" id="inputUser" placeholder="Digite seu usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword4">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                    </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
@@ -36,14 +51,6 @@ require './assets/includes/menu.php';
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
                         <input type="email" class="form-control" id="inputEmailConfirmation" placeholder="Confirme seu Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputUser">Usuário</label>
-                        <input type="text" class="form-control" id="inputUser" placeholder="Digite seu usuário">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword4">Senha</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-light">Entrar</button>
