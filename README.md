@@ -7,14 +7,14 @@ O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, 
 <table>
   <tr>
     <th>13/12/19</th>
-    <th>13/01/2020</th>
+    <th>07/02/2020</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
   <tr>
     <td>Entregar principais telas através do figma</td>
-    <td></td>
+    <td>Entrega das principais tela em HTML e CSS</td>
     <td></td>
     <td></td>
     <td></td>
