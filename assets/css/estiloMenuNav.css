@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(0, 59, 96);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: rgb(242, 181, 68);
+    padding: 20px;
+}
+
+.container ul li {
+    display: inline;
+}
+
+.img-cabecalho {
+    color: rgb(242, 181, 68);
+    text-align: center;
+}
+
+.img-cabecalho img {
+    width: 50px;
+}
+
+.img-cabecalho p {
+    padding-top: 10px;
+}

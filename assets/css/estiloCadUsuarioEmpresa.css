@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(/assets/img/carousel1.jpg);
-    background-position: 50% 70%;
+    background-image: url(../img/inclusao-social.png);
+    
 }
 
 .corpo-form {
@@ -17,10 +17,16 @@ body {
 
 .corpo-form form div {
     display: flex;
+    align-items: center;
+}
+
+.corpo-form form h2 {
+    color: rgb(242, 181, 68);
+    text-align: center;
 }
 
 
-input, select {
+input, select, button {
     display: block;
     height: 40px;
     width: 400px;
@@ -34,11 +40,20 @@ input, select {
     outline: none;
 }
 
-button[type=submit] {
-    background-color: #ff0066;
+input[type=radio] {
+    width: 20px;
+}
+
+button {
+    background: rgb(0, 59, 96);
     border: none;
     cursor: pointer;
     height: 40px;
     width: 400px;
     border-radius: 30px;
+    color: rgba(202, 199, 201, 0.5);
+}
+
+button:hover {
+    color: rgb(242, 181, 68);
 }

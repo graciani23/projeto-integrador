@@ -9,11 +9,11 @@
 </head>
 <body>
     <?php
-        require('./assets/includes/menu.php');
+        require('./assets/includes/menuNav.php');
     ?>
     <div class="corpo-form">
         <form method="POST">
-            <p>Cadastre sua empresa</p>
+            <h2><strong>Cadastre sua empresa</strong></h2>
             <input type="text" id="inputName" placeholder="Nome da empresa">
             <input type="number" id="inputCNPJ" placeholder="Informe seu CNPJ">        
             <input type="email" id="inputEmail" placeholder="Email de acesso">
@@ -23,10 +23,17 @@
             <button type="submit" class="btn btn-light">Entrar</button>
         </form>
     </div>
+
+    <div class="corpo-form">
+        
+    </div>
+    
+    <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
+    <link rel="stylesheet" href="assets/css/estiloFooter.css">
+    <link rel="stylesheet" href="assets/css/estiloMenuNav.css">
+
     <?php
         require('./assets/includes/footer.php');
     ?>
-    <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
-    <link rel="stylesheet" href="assets/css/estiloFooter.css">
 </body>
 </html>
