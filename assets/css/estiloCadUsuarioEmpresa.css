@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/assets/img/carousel1.jpg);
+    background-position: 50% 70%;
+}
+
+.corpo-form {
+    width: 420px;
+    margin: 80px auto 20px auto;
+}
+
+.corpo-form form div {
+    display: flex;
+}
+
+
+input, select {
+    display: block;
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(202, 199, 201, 0.5);
+    font-size: 12pt;
+    padding: 10px 20px;
+    background-color: rgba(202, 199, 201, 0.4);
+    color: rgb(44, 42, 43);
+    outline: none;
+}
+
+button[type=submit] {
+    background-color: #ff0066;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+}

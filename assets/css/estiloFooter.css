@@ -1,0 +1,21 @@
+
+/* rodapé */
+footer {
+    text-align: center;
+    background-color: rgb(166, 59, 50);
+    color: white;
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.footer-idioma {
+    display: flex;
+    align-items: center;
+}
+
