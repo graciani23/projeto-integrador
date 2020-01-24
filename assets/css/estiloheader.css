@@ -41,6 +41,7 @@
 
  
 .fundo > .botao:hover  {
-    background-color: rgb(145, 108, 180)!important;
+    color: white!important;
+    background-color: #802A73!important;
 }
    

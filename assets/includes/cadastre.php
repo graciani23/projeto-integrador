@@ -30,6 +30,7 @@
                     <div class="form-group">
                         <label for="exampleInputPassword1"></label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    <br>
                     </div>
                     <div class="form-group form-check">
                             <a href="http://">Esqueci minha senha</a>
@@ -53,6 +54,7 @@
                             <label for="exampleInputPassword1"></label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                         </div>
+                        <br>
                     <div class="form-group form-check">
                         <a href="http://">Esqueci minha senha</a>
                         <a href="cad-log-empresa.php">Quero me cadastrar</a>
@@ -64,6 +66,30 @@
 
         </div>
     </main>
+    <section>
+    <div class="col-sm-12">
+                <h4>Dúvidas?</h4>  
+                <div class="form-contato">  
+                    <h5 class="card-title">FALE CONOSCO</h5>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome de usuário">                
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input for="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"> 
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem"></label>
+                            <input type="text" class="form-control" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem">
+                        </div>
+                        <br>
+                    <div class="form-group form-check">
+                        <button type="submit" class="btn btn-light">Enviar</button>
+                 </div>
+            </div>  
+        <br>
+    </section>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
