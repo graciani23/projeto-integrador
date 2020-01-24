@@ -37,16 +37,24 @@ nav ul li {
 
 }
 
+nav ul li a {
+    font-size: 14px;
+}
+
 nav ul li:hover {
-    background-color:#1C6BB5;
+    background-color:rgb(128, 42, 115);
+    border-radius: 100px;
+    color: white;
+    
     
 }
 
 
 
+
 nav > .container > ul > li > a {
     text-decoration: none;
-    color: rgb(243, 7, 7);
+    color: rgb(3, 187, 219);
 }
 
 nav > .container > ul > li > a:hover {
@@ -60,4 +68,8 @@ nav > .container img {
     height: 40px;
     padding: 2px;
     cursor: pointer;
+}
+
+ .pidioma {
+    margin-bottom: 0rem;
 }
