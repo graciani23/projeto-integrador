@@ -38,8 +38,9 @@
         require './assets/includes/footer.php';
     ?>
     
-    <link rel="stylesheet" href="assets/css/estiloFooter.css">
+    
     <link rel="stylesheet" href="assets/css/estiloMenuNav.css">
     <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
+    <link rel="stylesheet" href="assets/css/estiloFooter.css">
 </body>
 </html>
