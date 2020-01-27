@@ -5,69 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/estiloFormsCadastro.css">
-    <title>Login Usuário</title>
+    <title>Login Usuário</title>  
 </head>
 <body>
     <?php
-require './assets/includes/menu.php';
-?>
-    <main class="container">
-
-        <section class="cadastro">
-            <form class="cad">
-            <p>Cadastre seu currículo e tenha acesso aos nossos serviços</p>
-                <div class="form-group">
-                    <label for="inputName">Nome Completo</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome completo">
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="genero" id="masculino" value="option1" checked>
-                    <label class="form-check-label" for="masculino">Masculino</label>
-                    <input class="form-check-input-fem" type="radio" name="genero" id="feminino" value="option1">
-                    <label class="form-check-label fem" for="feminino">Feminino</label>
-                </div>
-                <div class="form-group row">
-                    <label for="example-date-input" class="col-2 col-form-label">Data de nascimento</label>
-                    <div class="col-10">
-                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
-                    </div>
-                </div>
-                    <div class="form-group">
-                        <label for="inputUser">Usuário</label>
-                        <input type="text" class="form-control" id="inputUser" placeholder="Digite seu usuário">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword4">Senha</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                    </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmailConfirmation" placeholder="Confirme seu Email">
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-light">Entrar</button>
-            </form>
-        </section>
-    </main>
+        require './assets/includes/menuNav.php';
+    ?>
+    <div class="corpo-form">
+        <form method="POST">
+            <h2><strong>Cadastre seu currículo e tenha acesso aos nossos serviços</strong></h2>
+            <input type="text" id="inputName" placeholder="Digite seu nome completo">
+            <div class="genero">
+                <input type="radio" name="genero" id="masculino" value="option1" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="feminino" value="option1">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div>
+                <label for="data">Data de nascimento</label>
+                <input type="date" value="2011-08-19" id="data" placeholder="Data de nascimentos">
+            </div>
+            <input type="email" id="inputEmail" placeholder="Email">
+            <input type="password" id="inputPassword" placeholder="Senha">
+            <input type="password" id="inputConfirmPassword" placeholder="Confirme sua senha">
+            <?php
+                require './assets/includes/comboBoxPaises.html'
+            ?>
+            <button type="submit" class="btn btn-light">Cadastrar</button>
+        </form>
+    </div>
     <?php
-require './assets/includes/footer.php';
-?>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        require './assets/includes/footer.php';
+    ?>
+    
+    <link rel="stylesheet" href="assets/css/estiloFooter.css">
+    <link rel="stylesheet" href="assets/css/estiloMenuNav.css">
+    <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
 </body>
 </html>

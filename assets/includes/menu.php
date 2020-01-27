@@ -7,7 +7,6 @@
     <title>Header - Projeto Integrador</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/estilomenu.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,10 +16,10 @@
             <li><a href="sobre-nos.php">Sobre nós</a></li>
             <li><a href="cad-log-usuario.php">Área do Usuário</a></li>
             <li><a href="cad-log-empresa.php">Área da Empresa</a></li>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#">Contato</a></li>
         </ul>
         <div class="img-cabecalho">
-            <p style="color:white">Selecione o seu idioma</p>
+            <p style="color:white;margin-bottom:0rem;font-size:14px">Selecione o seu idioma</p>
             <img src="./assets/img/Brazil.png" alt="Bandeira do Brasil">
             <img src="./assets/img/England.png" alt="Bandeira da Inglaterra">
             <img src="./assets/img/France.png" alt="Bandeira da França">
@@ -40,5 +39,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/estilomenu.css">
 </body>
 </html>
