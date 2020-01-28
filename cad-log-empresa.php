@@ -24,7 +24,7 @@
         </form>
     </div>
 
-    <div class="corpo-form">
+    <div class="corpo">
         
     </div>
     
