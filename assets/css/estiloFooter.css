@@ -9,8 +9,8 @@ footer {
 
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-aroundcent;
+    align-items: center;
     align-content: center;
 }
 
@@ -23,3 +23,7 @@ footer {
     padding-right: 10px;
 }
 
+
+.footer-idioma img {
+    width: 50px;
+}

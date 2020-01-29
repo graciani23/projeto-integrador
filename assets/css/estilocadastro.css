@@ -111,4 +111,6 @@ body > section {
 
 }
 
-
+.form-group-mensagem > input {
+    height: 100px;
+}

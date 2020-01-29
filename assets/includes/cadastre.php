@@ -79,7 +79,7 @@
                             <label for="exampleInputEmail1"></label>
                             <input for="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail"> 
                         </div>
-                        <div class="form-group">
+                        <div class="form-group-mensagem">
                             <label for="mensagem"></label>
                             <input type="text" class="form-control" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem">
                         </div>

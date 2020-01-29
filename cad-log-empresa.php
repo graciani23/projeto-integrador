@@ -24,9 +24,13 @@
         </form>
     </div>
 
-    <div class="corpo-form">
+    <div class="corpo">
         
     </div>
+    
+    <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
+    <link rel="stylesheet" href="assets/css/estiloMenuNav.css">
+    <link rel="stylesheet" href="assets/css/estiloFooter.css">
 
     <?php
         require('./assets/includes/footer.php');
