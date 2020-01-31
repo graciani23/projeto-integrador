@@ -13,7 +13,7 @@
 <body>
     <div class="fundo">        
             <h2 class="h2">Recomeço além das fronteiras</h2>
-                <!-- <form action="./assets/includes/cadastre.php" method="get"> -->
+                <!-- <form action="./assets/includes/cadastre.php" method="get" -- RETIRAR > -->
                     <button class="botao"> Participe </button>
                     <!-- <button class="botao"> <a href="#FAÇA PARTE DO NOSSO PROJETO">Participe</a> </button> -->
                 </form>
