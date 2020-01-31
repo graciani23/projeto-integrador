@@ -9,7 +9,7 @@ footer {
 
 .container {
     display: flex;
-    justify-content: space-aroundcent;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
