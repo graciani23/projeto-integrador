@@ -11,7 +11,7 @@ body {
 /* Menu de navegação */
 
 nav{
-    background-color: #1C6BB5;
+    background-color: rgb(0, 59, 96);
 }
 
 nav .container {
@@ -34,6 +34,7 @@ nav .container ul li {
 
 
 /* Inicio main */
+
 
 .foto > img {
     width: 300px;

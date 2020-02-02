@@ -23,14 +23,16 @@
     </nav>
 
     <main class="container">
-        <div class="row border p-5 my-3">
-        <div class="foto col-md-12">   
+        <div class="row">
+        <div class="col-md-6 bg-light">
+        <div class="row border p-5">
+        <div class="foto col-md-4">   
             <img src="./assets/img/refugiado.jpg" alt="Foto Perfil">
             <form name="nome" action="" method="GET">
                 <input type="text" placeholder="Digite seu nome" required="required">
             </form>
         </div>
-        <div class="dados-pessoais col-md-12">
+        <div class="dados-pessoais">
             <a class="botao" href="">Editar</a>
         <form name="dadosPessoais" action="" method="GET">
             <fieldset>
@@ -42,7 +44,8 @@
                 <label for="masculino">Masculino</label><br>
                 Idade: <input type="number"><br>
                 Estado Civil: <select name="estadoCivil" required="required">
-                    <option value="solteiro" selected="selected">Solteiro(a)</option>
+                    <option value="estadoCivil">Estado Civil</option>
+                    <option value="solteiro">Solteiro(a)</option>
                     <option value="sasado">Casado(a)</option>
                     <option value="separado">Separado(a)</option>
                     <option value="sivorciado">Divorciado(a)</option>
@@ -62,7 +65,7 @@
             </fieldset>
         </form>
         </div>
-        <div class="endereço col-md-12">
+        <div class="endereço">
             <a class="botao" href="">Editar</a>
         <form name="endereco" action="" method="GET">
             <fieldset>
@@ -76,7 +79,7 @@
             </fieldset>
         </form>    
         </div>
-        <div class="info-contato col-md-12">
+        <div class="info-contato">
             <a class="botao" href="">Editar</a>
             <form name="endereco" action="" method="GET">
                 <fieldset>
@@ -87,7 +90,7 @@
                 </fieldset>   
             </form>     
         </div>
-        <div class="redes-sociais col-md-12">
+        <div class="redes-sociais">
             <a class="botao" href="">Editar</a>
             <h4>Redes Sociais</h4>
                 <div class="redes-sociais">
@@ -100,19 +103,21 @@
                 </div>
             </div>
         </div>
+        
         <div class="row border p-5 my-3">
-        <div class="objetivo-profissional col-md-12">
+        <div class="objetivo-profissional col-md-4">
             <a class="botao" href="">Editar</a>
             <h4>Objetivo Profissional</h4>
             <form name="objetivoProfissional" action="" method="GET">
                 <textarea name="objetivoProfissional"placeholder="Digite seus objetivos profissionais"></textarea>
             </form>
         </div>
-        <div class="areas-interesse col-md-12">
+        <div class="areas-interesse">
             <a class="botao" href="">Editar</a>
             <h4>Areas de Interesse</h4>
             <form name="areasDeInteresses" action="" method="GET">
                 <select name="areas" required="required">
+                    <option value="">Selecione a Área</option>
                     <option value="administrativo">Administrativo</option>
                     <option value="financeiro">Financeiro</option>
                     <option value="recursosHumanos">Recursos Humanos</option>
@@ -122,56 +127,80 @@
                 </select>
             </form>
         </div>
-        <div class="row border p-5 my-3">
-            <div class="resumo-profissional col-md-12">
+        
+            <div class="resumo-profissional">
                 <a class="botao" href="">Editar</a>
                 <h4>Resumo Profissional</h4>
                 <form name="resumoProfissional" action="" method="GET">
-                    <textarea name="resumoProfissional"placeholder="DIgite um resumo das suas qualificaões profissionais"></textarea>
+                    <textarea name="resumoProfissional"placeholder="Faça um resumo de suas qualificações, habilidades e realizações profissionais." cols="30"></textarea>
                 </form>
             </div>
-        </div>
-        <div class="row border p-5 my-3">
-        <div class="experiencia col-md-12">
+            <div class="experiencia">
             <a class="botao" href="">Editar</a>
-            <h4>Experiência</h4>
                 <div class="experiencia">
-                    <ul>
-                        <li>Empresa: Syriatel</li>
-                        <li>Cargo: Gerente de comunicação - 11/2016 à 08/2018</li>
-                        <h6>Lormem ipsum dolor sit amet consectetur adipisicing elit. Et quos doloremque, illo pariatur, optio laudantium nobis ipsa ad, officiis debitis ducimus modi? Consectetur maiores laboriosam iste! Veniam hic explicabo tenetur.</h6>
-                    </ul>
-                    <ul>
-                        <li>Empresa: Syriatel</li>
-                        <li>Cargo: Gerente de comunicação - 11/2016 à 08/2018</li>
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos doloremque, illo pariatur, optio laudantium nobis ipsa ad, officiis debitis ducimus modi? Consectetur maiores laboriosam iste! Veniam hic explicabo tenetur.</h6>
-                    </ul>
-                    <ul>
-                        <li>Empresa: Syriatel</li>
-                        <li>Cargo: Gerente de comunicação - 11/2016 à 08/2018</li>
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quos doloremque, illo pariatur, optio laudantium nobis ipsa ad, officiis debitis ducimus modi? Consectetur maiores laboriosam iste! Veniam hic explicabo tenetur.</h6>
-                    </ul>
+                        <form name="experiencia" action="" method="GET">
+                                <fieldset>
+                                    <legend>Experiencia</legend>
+                                        Empresa: <input type="text" placeholder="" required="required"><br>
+                                        Cargo: <input type="text" placeholder="" required="required"><br>
+                                        Localidade: <input type="text" placeholder="" required="required"><br>
+                                        Data Início: <select name="data-mes" required="required">
+                                            <option value="mes">Mes</option> 
+                                            <option value="Junho">Junho</option>
+                                            <option value="Julho">Julho</option>
+                                        </select>
+                                        <select name="data-ano" required="required">
+                                            <option value="ano">Ano</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                        </select><br>
+                                        Descrição: <textarea name="experiencia" id="" cols="30" rows=""></textarea>
+                                </fieldset>
+                            </form>
                 </div>
             </div>
-        </div>
-        <div class="row border p-5 my-3">
-        <div class="formacao-academica col-md-12">
+        <div class="row ">
+        <div class="formacao-academica col-md-4">
             <a class="botao" href="">Editar</a>
-            <h4>Formação Acadêmica</h4>
                 <div class="formacao-academica">
-                    <ul>
-                        <li>Nivel Escolaridade</li>
-                        <h6>Superior Completo</h6>
-                        <li>Cursos Complementares</li>
-                        <h6>Administração - Senac</h6>
-                        <li>Idiomas</li>
-                        <h6>Inglês - Avançado</h6>
-                        <h6>Françês - Avançado</h6>
-                        <h6>Espanhol - Avançado</h6>
-                    </ul>
+                    <form name="experiencia" action="" method="GET">
+                        <fieldset>
+                            <legend>Formação Acadêmica</legend>
+                                Instutuição: <input type="text" placeholder="" required="required"><br>
+                                Formação: <input type="text" placeholder="" required="required"><br>
+                                Área de Estudo: <input type="text" placeholder="" required="required"><br>
+                                Data Início: <select name="data-mes" required="required">
+
+                                                <option value="mes">Mes</option> 
+                                                <option value="Junho">Junho</option>
+                                                <option value="Julho">Julho</option>
+                                            </select>
+                                            <select name="data-ano" required="required">
+                                                <option value="ano">Ano</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                            </select><br>
+                                    Data Término: <select name="data-mes" required="required">
+                                                <option value="mes">Mes</option> 
+                                                <option value="Junho">Junho</option>
+                                                <option value="Julho">Julho</option>
+                                            </select>
+                                            <select name="data-ano" required="required">
+                                                <option value="ano">Ano</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                            </select><br>
+                                    Descrição: <textarea name="experiencia" id="" cols="30" rows=""></textarea>
                 </div>
             </div>
         </div>
+    </div>
+        </div>
+    <div class="row">
+    <div class="col-md-6">
+        <h2>TESTE</h2>
+    </div>
+</div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
