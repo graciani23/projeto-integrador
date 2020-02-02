@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/curriculo1.css">
-    <!--<link rel="stylesheet" href="assets/css/estiloFooter.css"> -->
+    <link rel="stylesheet" href="assets/css/estiloFooterCurriculo.css">
     <title>Document</title>
 </head>
 
@@ -214,7 +214,7 @@
 </div>    
 <br>
 <?php
-    //require './assets/includes/footer.php';//
+    require './assets/includes/footerCurriculo.php';
 ?>
 
 </body>
