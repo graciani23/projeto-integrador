@@ -71,7 +71,7 @@
     <div class="col-sm-12">
                 <h4>Dúvidas?</h4>  
                 <div class="form-contato">  
-                    <h5 class="card-title">FALE CONOSCO</h5>
+                    <h5 class="card-title"><a name="FALE CONOSCO">FALE CONOSCO</h5>
                         <div class="form-group">
                             <label for="exampleInputEmail1"></label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome de usuário">                

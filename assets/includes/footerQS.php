@@ -1,6 +1,6 @@
 
 <footer>
-    <div class="container">
+    <div class="corpo-rodape">
         <p>Criado por Equipe MigraJobs em 2020</p>
         <div class="footer-idioma">
             <small>Idioma</small>

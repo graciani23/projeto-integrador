@@ -16,7 +16,7 @@
             <li><a href="sobre-nos.php">Sobre nós</a></li>
             <li><a href="cad-log-usuario.php">Área do Usuário</a></li>
             <li><a href="cad-log-empresa.php">Área da Empresa</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#FALE CONOSCO">Contato</a></li>
         </ul>
         <div class="img-cabecalho">
             <p style="color:white;margin-bottom:0rem;font-size:14px">Selecione o seu idioma</p>
