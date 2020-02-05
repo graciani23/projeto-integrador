@@ -6,8 +6,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../img/inclusao-social.png);
-    
+    /*background-image: url(../img/inclusao-social.png);*/
+}
+
+.bg {
+    opacity: 0.5;
 }
 
 .corpo {
@@ -32,6 +35,7 @@ body {
     color: rgb(242, 181, 68);
     text-align: center;
     font-size: 25px;
+
 }
 
 
