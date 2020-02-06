@@ -48,7 +48,12 @@
 
         <div class="buscar-vagas">
             <h2>Buscar vagas</h2>
-            <input type="text" placeholder="Digite cargo ou área profissional">
+
+            <form action="">
+                <input type="text" placeholder="Digite cargo ou área profissional" style="float: left">
+                <input type="button" value="Procurar vagas" style="float: left; width: 150px; text-align: center; font-weight: bold; padding: 0;">
+                
+            </form>
         </div>
     </div>
 
