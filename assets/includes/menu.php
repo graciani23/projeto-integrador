@@ -7,16 +7,21 @@
     <title>Header - Projeto Integrador</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/estilomenu.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark">
+        <!-- MigraJobs logo no header de navegação -->
+        <div class="logo">
+            <a href="sobre-nos.php">MigraJobs</a>
+    </div>
     <div class="container">
-        <ul>
-            <li><a href="sobre-nos.php">Sobre nós</a></li>
-            <li><a href="cad-log-usuario.php">Área do Usuário</a></li>
-            <li><a href="cad-log-empresa.php">Área da Empresa</a></li>
-            <li><a href="#FALE CONOSCO">Contato</a></li>
+        <ul class="menuB">
+            <li><a href="sobre-nos.php" class="menuA">Sobre nós</a></li>
+            <li><a href="cad-log-usuario.php" class="menuA" >Área do Usuário</a></li>
+            <li><a href="cad-log-empresa.php" class="menuA">Área da Empresa</a></li>
+            <li><a href="#FALE CONOSCO" class="menuA">Contato</a></li>
         </ul>
         <div class="img-cabecalho">
             <p style="color:white;margin-bottom:0rem;font-size:14px">Selecione o seu idioma</p>
@@ -39,6 +44,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/estilomenu.css">
+    
 </body>
 </html>
