@@ -1,175 +1,160 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-decoration: none;
 }
 
-body {
+header {
+    width: 100%;
+    height: 100px;
+    background: #343A40;
     font-family: 'Montserrat', sans-serif;
+}
+
+.principal {
+    color: 1px solid #FFF;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.principal img {
     background-color: white;
-    font-size: 14px;
+}
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 13vh 145vh 60vh;
-    grid-gap: 20px;
-    grid-template-areas: "nav nav"
-                        "dados-pessoais objetivo-profissional" 
-                        "dados-pessoais formacao-academica"
-}
- 
-/* Alinhando as margens laterias das section*/
-.dados-pessoais {
-    margin-left: 100px;
-}
-
-.objetivo-profissional, .formacao-academica { 
-    margin-right: 100px;
-}   
-
-/* Estilizando Form */ 
-.button .cancelar{
+.logo a{
     text-decoration: none;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    background-color: #f6f7f9;
-    color: red;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.button .salvar {
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #0073b1;
     color: white;
-    cursor: pointer;
-    font-size: 14px;
 }
 
-input {
-    border-radius: 5px;
-    margin-top: 13px;
-    height: 30px;
-}
-
-textarea {
-    margin-top: 13px;
-    width: 300px;
-    height: 150px;  
-}  
-
-select {
-    margin-top: 13px;
-}
-
-.estadoCivil, .areasInteresse {
-    border-radius: 5px;
-    height: 30px;
-}
-
-input[type=text], input[type=number], input[type=email]{
-    position: relative;
-    left: 10px;
-    width: 50%;  
-}
-
-input[type=date]{
-    position: relative;
-    left: 10px;
-}
-
-input[type=email]:focus, input[type=text]:focus, input[type=date]:focus, input[type=number]:focus {
-    background-color: rgb(223, 223, 235);
-}
-
-
-/* Header */
 nav {
-    background-color: rgb(0, 59, 96);
-    grid-area: nav;
-
+    height: 50px;
+    line-height: 50px;
+    margin: auto 50px;
+    display: inline-block;
 }
 
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+nav ul li {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+    display: inline-block;
+  
 }
 
-
-.header ul a:hover {
-    background-color:rgb(166, 59, 50);
-    border-radius: 300px;
-    color:black;
+nav ul li a {
+    color: #03BBDB;
+    margin-right: 10px;
+    padding: 5px;
 }
 
-.header ul li {
-    display: inline;
-}
-
-.header ul li a{
+nav ul li a:hover {
+    color: #FFF;
+    background-color: #03BBDB;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    color: rgb(242, 181, 68);
-    padding: 20px;
-    cursor: pointer;
+
+}
+
+.user {
+    font-size: 16px;
+    background-color: #F7F5F5;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    color: #03BBDB;
     font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
 }
 
-.img-cabecalho {
-    align-items: center;
-    padding-top: 10px;
+header img {
+    border: 1px solid #FFF;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #FFF;
+    border-radius: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.img-cabecalho p {
-    color:rgb(242, 181, 68);
-    font-weight: bold;
-
-}
-
-.img-cabecalho img {
-    width: 40px;
-    cursor: pointer;
-}
-
-
-/* Dados Pessoais*/
-.dados-pessoais {
-background-color:#f6f7f9;
-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-grid-area: dados-pessoais;
-
-}
-
+/* Dados Pessoais */
 .foto img {
     width: 300px;
+}
+
+.foto form input {
+    width: 55.5%;
+}
+
+.dados-pessoais h4 {
+    color: black;
+}
+
+.dados-pessoais label, input {
+    color: black;
+    padding-right: 30px;
+}
+
+.nome {
+    width: 70% ;
+}
+
+.button input {
+    font-size: 14px;
 }
 
 .redes-sociais img {
     width: 30px;
 }
 
-/* Objetivos Profissionais */
-.objetivo-profissional {
-    background-color: #f6f7f9;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    grid-area: objetivo-profissional;
+.dataNascimento input {
+    width: 40%;
 }
 
-/* Formação Academica */
-.formacao-academica {
-    background-color: #f6f7f9;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    grid-area: formacao-academica;
+.idadeDocumento .form-group input{
+    width: 40%;
 }
 
-
-/*.formacaoAcademica1 form{
-    display: flex;
-    flex-direction: column;
+.estadoCivil select {
+    height: 30px;
 }
 
+option {
+    color: black;  
+}
 
+select {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    padding-right: 2px;
+}
+
+.endereco input {
+    width: 97%;
+}
+
+.cidade input {
+    width: 90%;
+}
+
+.info-contato input {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+}
