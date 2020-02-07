@@ -183,12 +183,10 @@
                     <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
                 </form>
             </section>
-        </div>
  <!-- TÉRMINO DA 1° GRID -->
 
 
  <!-- INÍCIO DA 2° GRID md 6 -->
-        <div class="row">
             <section class="objetivo-profissional col-md-6 border">
 
                 <div class="objetivoProfissional">
@@ -249,7 +247,6 @@
                     </div>
                 </div>
             </section>
-        </div>
     </div>
 
 <!-- INÍCIO DA 3° GRID - md 12 -->
