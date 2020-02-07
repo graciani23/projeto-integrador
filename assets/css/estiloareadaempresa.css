@@ -9,93 +9,85 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
 	height:100%;
 	font-family: 'Montserrat', sans-serif;
 }
 
-header{
-    background-color: #ffffff;
-}
+/* HEADER */
+/* início da nav */
 
-header>div{
-    font-family: 'Montserrat', sans-serif;
-    color: #1C6BB5;
-    display:flex;
+nav>div {
+    background-color: #3c3f44;
+    display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 0 370px 0 40px;
 }
 
-/* FIM DO HEADER - PRIMEIRA LINHA */
-
-/* INÍCIO DA SEGUNDA LINHA - LINKS PARA ACESSO DA EMPRESA*/
-
-nav {
-	background-color: #1c6bb5;
-}
-
-nav>div>ul {
-	margin:0;
-	padding: 0;
-	display: flex;
-    justify-content: space-between; 
-    list-style: none;
-}
-
-nav>div>ul>li>a{
+nav>div>div>a{
 	text-decoration: none;
-	padding: 20px 70px 20px 70px;
+	padding: 35px 90px 20px 30px;
 	display: inline-block;
     color: #ffffff;
     font-size: 18px;
 }
 
-nav>div>ul>li>a:hover{
-    color: #FFD12E;
+nav>div>div>a:hover{
+    color: #ffc107;
     font-weight: bold;
+} 
+
+/* segunda linha */
+
+header{
+    background-color: #17a2b8;
 }
 
-/* FIM DA SEGUNDA LINHA */
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3f44;
+    font-weight: bold;
+    text-align: center;
+    height: 55px;
+}
+
+/* FIM DO HEADER */
+
 
 /* INÍCIO DA TERCEIRA LINHA - MENU DE BUSCA */
 
 .buscadecandidato {
     margin:0;
-	padding: 0;
 	display: flex;
     justify-content: space-between; 
     padding: 0 70px 0 70px;
-    background-color: #ffffff;
+    background-color: #3c3f44;
     font-size: 18px;
-    color: #524942;
-    border-top:1px solid #524942;
-	border-bottom:1px solid #524942;
-}
-div>form{
-    display: flex;
+    color:#ffffff;
+    font-weight: bold;
 }
 
-div>form>input{
+.estadocidade {
     font-size: 16px;
-    border: 1px solid #524942;
-    width: 220px;
+    border: 1px solid #3c3f44;
+    width: 300px;
     height: 31px;
     margin-top: 15px;
 }
 
-div>form>button{
-    border: 1px solid #524942;
-    color: #524942;
-    width: 31px;
+.funcao {
+    color: #3c3f44;
+    width: 230px;
     height: 31px;
     margin-top: 15px;
+    font-size: 16px;
 } 
 
-div>form>button>img{
-    border: 1px solid #524942;
+.botao{
+    width: 70px;
+    height: 31px;
+    margin-top: 15px;
+    font-size: 14px;
 }
 
 /* FIM DA TERCEIRA LINHA */
@@ -103,10 +95,11 @@ div>form>button>img{
 /* INÍCIO DA DIV COM O RESULTADOS DA BUSCA */
 
 #resultado{
-    color: #1C6BB5;
+    color: #3c3f44;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     margin-left: 65px;
+    font-weight: bold;
 }
 
 .candidato{
@@ -114,11 +107,12 @@ div>form>button>img{
     height: 330px;
     left: 88px;
     top: 301px;
-    background: #ffffff;
-    border: 1px solid #1C6BB5;
+    border: 2px solid #ffffff;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: #8faecb;
+    background-color: rgb(23,162, 184, 0.3);
+    color: #3c3f44;
+    font-size: 12px;
 }
 
 .candidato img{
@@ -127,24 +121,24 @@ div>form>button>img{
     /* margin-left: 10px;
     margin-right: 10px; */
     border-radius: 90px;
-    border: 1px solid #1C6BB5;
+    border: 2px solid white;
 }
 
-.candidato h3{
+.candidato h3 {
+    font-size: 14px;
     margin-bottom: -2px;
     margin-left: 5px;
 }
 
 .candidato p{
-    margin-bottom: -1px; 
+    margin-bottom: 5px; 
     margin-top: -2px;
     margin-left: 5px;
     font-size: 16px;
 }
 
 .candidato a{
-    color: #1C6BB5;
-    padding-top: 20px;
+    color: #ffc107;
     margin-left: 55px;
     font-size: 18px;
     font-weight: bold;
@@ -168,13 +162,21 @@ main {
 	padding: 10px;
 } 
 
+.pagina {
+    color: #3c3f44;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+
 .footer{
-    background-color: #1C6BB5;
+    background-color: #802A73;
     color: #ffffff;
-    height: 50px;
+    height: 80px;
 }
 
 .footer p{
-   padding-top: 15px;
-   margin-left: 65px;
+   padding-top: 25px;
+   margin-left: 280px;
 }
