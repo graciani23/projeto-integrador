@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/curriculo.css">
-    <link rel="stylesheet" href="assets/css/estiloFooterCurriculo.css">
     <title>Document</title>
 </head>
 
@@ -38,41 +37,36 @@
     <!-- DADOS PESSOAIS -->
     <div class="container pt-3">
         <div class="row">
-            <section class="dados-pessoais col-md-6 border pt-3">
+            <section class="dados-pessoais col-md-6 border">
                 <div class="foto">
                     <img src="./assets/img/refugiado.jpg" alt="Foto Perfil">
                 <form>
-                    <div class="foto">
+                    <div class="foto form-group pb-4">
                         <label for="foto"></label>
                         <input type="file" class="form-control-file" id="foto">
                     </div>
                 </form>
                 </div>
          
-                <form class="button d-flex justify-content-end pr-3">
-                    <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
-                    <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
-                </form>
-
-                <div class="dados-pessoais pt-4">
+                <div class="dadosPessoais d-flex fledx-row justify-content-center pt-1">
                     <h4> Dados Pessoais</h4>
                 </div>
 
-                <form class="nome pt-3"> 
+                <form class="nome pt-3" method="GET"> 
                     <div class="form-group d-flex fledx-row justify-content-end pt-3">
                         <label class="pr-2 pt-2" for="nome">Nome</label>
                         <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
                     </div>
                 </form>  
             
-                <form class="dataNascimento  pt-3" >
-                    <div class="form-group d-flex fledx-row pt-3">
+                <form class="dataNascimento" method="GET" >
+                    <div class="form-group d-flex fledx-row justify-content-end">
                         <label class="pr-2 pt-2" for="nome">Data Nascimento</label>
                         <input type="date" class="form-control" id="dtnsc" name="dtnsc" placeholder="DD/MM/AAAA" maxlength="10" required><br>
                     </div>
                 </form>
 
-                <div class="sexo  pt-3">
+                <div class="sexo d-flex fledx-row justify-content-end">
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" id="sexoFeminino" name="sexoFeminino" class="custom-control-input">
                         <label class="custom-control-label" for="sexoFeminino">Feminino</label>
@@ -83,18 +77,21 @@
                     </div>
                 </div>
 
-                <form class="idadeDocumento pt-2">
-                    <div class="form-group d-flex flex-row pt-3">
+                <form class="idade" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end pt-3">
                         <label class="pr-2 pt-2" for="idade">Idade</label>
                         <input type="text" class="form-control" id="idade" placeholder="Digite sua idade">
-                    </div>
-                    <div class="form-group d-flex flex-row">
+                    </div>  
+                </form>    
+                    
+                <form class="documento" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end">
                         <label class="pr-2 pt-2" for="documento">Documento</label>
                         <input type="text" class="form-control" id="documento" placeholder="Digite seu documento">
                     </div>
                 </form>
 
-                <div class="estadoCivil  pb-2">
+                <div class="estadoCivil d-flex flex-row justify-content-end pb-2">
                     <label class="pr-2"for="estadoCivil">Estado Civil</label>
                     <select class="estadoCivil" name="estadoCivil" required="required">
                         <option value="estadoCivil">Estado Civil</option>
@@ -105,61 +102,81 @@
                         <option value="viuvo"<Viuvo(a)></option>
                     </select><br>
                 </div>
+            
     
-                <form class="button d-flex justify-content-end pb-5">
+                <form class="button d-flex justify-content-end pb-5" method="GET">
                     <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
                     <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
                 </form>
 
 <!-- ENDEREÇO -->
+                <div class="endereco1 d-flex fledx-row justify-content-center pt-1">
+                        <h4>Endereço</h4>
+                </div>
+                
                 <?php
                 require './assets/includes/comboBoxPaises.html'
                 ?><br>
 
-                <form class="endereco pt-4">
-                    <div class="form-group">
-                        <label for="inputZip">CEP</label>
-                        <input type="text" class="form-control" id="inputZip">
+
+            <div class="enderecoCompleto">
+                <form class="cep" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end pt-3">
+                        <label class="pr-2 pt-2" for="cep">CEP</label>
+                        <input type="number" class="form-control" id="cep" placeholder="Somente número">
+                    </div>  
+                </form>    
+                    
+                <form class="endereco" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end">
+                        <label class="pr-2 pt-2" for="endereco">Endereço</label>
+                        <input type="text" class="form-control" id="endereco" placeholder="Ex. Avenida Brasil, 200">
                     </div>
-
-                    <div class="form-group">
-                        <label for="inputAddress">Endereço</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Ex. Avenida Brasil, 200">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputAddress2">Complemento</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Ex. Apartamento 23 Bloco A">
-                    </div>
-
-                    <div class="form-row">
-                        <div class="cidade form-group col-md-6">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-
-                    <div class="estado form-group col-md-6">
-                        <label for="inputState">Estado</label>
-                        <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                        </select>
+                </form>
+                
+                <form class="complemento" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end">
+                        <label class="pr-2 pt-2" for="complemento">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" placeholder="Ex. Apto. 23 Bloco A">
                     </div>
                 </form>
 
- 
+                <form class="cidade" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end">
+                        <label class="pr-2 pt-2" for="cidade">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" placeholder="Selecione sua cidade">
+                    </div>
+                </form>  
+
+                <form class="estado" method="GET">
+                    <div class="form-group d-flex flex-row justify-content-end">
+                        <label class="pr-2 pt-2" for="estado">Estado</label>
+                        <input type="text" class="form-control" id="estado" placeholder="Selecione seu Estado">
+                    </div>
+                </form>
+            </div>
+            
+            <form class="button d-flex justify-content-end pb-5" method="GET">
+                <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
+                <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
+            </form>   
 
 <!-- CONTATO E REDES SOCIAIS -->
-                <form class="contato pt-2">
-                    <div class="form-group d-flex flex-row pt-3">
+
+                <div class="contatos d-flex fledx-row justify-content-center pt-1">
+                    <h4>Contato</h4>
+                </div>
+
+                <form class="contatoPessoal" method="GET">
+                    <div class="email form-group d-flex flex-row justify-content-end">
                         <label class="pr-2 pt-2" for="email">E-mail</label>
                         <input type="mail" class="form-control" id="email" placeholder="name@example.com">
                     </div>
-                    <div class="form-group d-flex flex-row">
+                    <div class="telefone form-group d-flex flex-row justify-content-end">
                         <label class="pr-2 pt-2" for="telefone">Telefone</label>
                         <input type="number" class="form-control" id="telefone" placeholder="(00) 0000-0000">
                     </div>
-                    <div class="form-group d-flex flex-row">
+                    <div class="celular form-group d-flex flex-row justify-content-end">
                         <label class="pr-2 pt-2" for="celular">Celular</label>
                         <input type="text" class="form-control" id="celular" placeholder="(00) 00000-0000">
                     </div>
@@ -178,113 +195,137 @@
                     </div>
                 </div>
 
-                <form class="button d-flex justify-content-end pb-5 pr-3">
+                <form class="button d-flex justify-content-end pb-3" method="GET">
                     <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
                     <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
                 </form>
             </section>
+        </div>
  <!-- TÉRMINO DA 1° GRID -->
 
 
  <!-- INÍCIO DA 2° GRID md 6 -->
-            <section class="objetivo-profissional col-md-6 border">
+ <!-- OBJETIVO PROFISSIONAL -->
+        <section class="objetivo-profissional col-md-6 border">
 
-                <div class="objetivoProfissional">
-                    <h3>Objetivo Profissional</h3>
-                    <form name="objetivoProfissional" action="" method="GET">
-                        <textarea name="objetivoProfissional"placeholder="Digite seus objetivos profissionais"></textarea>
-                    </form>
-                </div><br>
+            <div class="objetivoProfissional d-flex flex-row justify-content-center pt-2">
+                <h4>Objetivo Profissional</h4>
+            </div>
 
-                <div class="areas-interesse">
-                    <h3>Areas de Interesse</h3>
-                    <form name="areasInteresses" action="" method="GET">
-                        <select class="areasInteresse" name="areas" required="required">
-                            <option value="">Selecione a área</option>
-                            <option value="administrativo">Administrativo</option>
-                            <option value="financeiro">Financeiro</option>
-                            <option value="recursosHumanos">Recursos Humanos</option>
-                            <option value="setorComercial">Setor Comercial</option>
-                            <option value="setorOperacional">Setor Operacional</option>
-                            <option value="tecnologia">Tecnologia</option>
-                        </select>
-                    </form>
-                </div><br>
-
-                <div class="resumo-profissional">
-                    <h3>Resumo Profissional</h3>
-                    <form name="resumoProfissional" action="" method="GET">
-                        <textarea name="resumoProfissional"placeholder="Faça um resumo de suas qualificações, habilidades e realizações profissionais." cols="30"></textarea>
-                    </form>
-                </div><br>
-
-
-                <div class="experiencia">
-                    <h3>Experiencia</h3>
-                    <div class="experiencia1">
-                        <form name="experiencia" action="" method="GET">
-                            <label for="empresa">Empresa</label>
-                            <input type="text" placeholder="" required="required"><br>           
-                            <label for="cargo">Cargo</label>
-                            <input type="text" placeholder="" required="required"><br>
-                            <label for="localidade">Localidade</label>
-                            <input type="text" placeholder="" required="required"><br>           
-                        <div class="data">
-                            <label for="dataInicio">Data Início</label>
-                            <?php
-                            require './assets/includes/comboBoxMesAno.html'
-                            ?><br>
+            <div class="form-group pt-2">
+                <textarea class="form-control" id="resumo" rows="3">Digite aqui o seu objetivo profissional</textarea>
+            </div>
                 
-                            <label for="dataTemino">Data Término</label>
-                            <?php
-                            require './assets/includes/comboBoxMesAno.html'
-                            ?>
-                        </div><br>
+            <div class="areasInteresse d-flex flex-row justify-content-center pt-4">
+                <h5>Areas de Interesse</h5>
+            </div>
+
+            <div class="areasInteresses d-flex flex-row justify-content-end pb-2">
+                <label class="areas pr-2"for="areas">Selecione a área</label>
+                <select class="areasInteresses" name="areas" required="required">
+                    <option value="">Selecione a área</option>
+                    <option value="administrativo">Administrativo</option>
+                    <option value="financeiro">Financeiro</option>
+                    <option value="recursosHumanos">Recursos Humanos</option>
+                    <option value="setorComercial">Setor Comercial</option>
+                    <option value="setorOperacional">Setor Operacional</option>
+                    <option value="tecnologia">Tecnologia</option>
+                </select><br>
+            </div>
+
+<!-- EXPERIÊNCIA PROFISSIONAL -->
+            <div class="experiencia d-flex flex-row justify-content-center pt-5">
+                <h5>Experiência</h5>
+            </div>
+            
+            <div class="form-group pt-2">
+                <label for="resumo">Resumo Profissional</label>
+                <textarea class="form-control" id="resumo" rows="3"></textarea>
+            </div>
+
+            <div class="cargo form-group d-flex flex-row justify-content-end">
+                <label class="pr-2 pt-2" for="cargo">Cargo</label>
+                <input type="text" class="form-control" id="cargo" placeholder="">
+            </div>               
                 
-                            <label for="descricao">Descrição</label>
-                            <textarea name="experiencia" id="" cols="30" rows=""></textarea>
-                        </form>
-                    </div>
-                </div>
-            </section>
+            <div class="data pt-2">
+                <label class="pr-2 pt-2" for="dataInicio">Data início</label>
+                    <?php
+                        require './assets/includes/comboBoxMesAno.html'
+                    ?><br>
+                
+                <label class="pr-2 pt-2" for="dataTermino">Data término</label>
+                    <?php
+                        require './assets/includes/comboBoxMesAno.html'
+                    ?>
+                </div><br>
+                
+            <div class="form-group">
+                <label for="descricao">Descrição</label>
+                    <textarea class="form-control" id="descricao" rows="3"></textarea>
+            </div>
+
+            <form class="button d-flex justify-content-end pb-3">
+                <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
+                <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
+            </form>
+
+        </section>
     </div>
 
 <!-- INÍCIO DA 3° GRID - md 12 -->
+<!-- FORMAÇÃO ACADEMICA -->
     <div class="container">
-        <div class="row">
+        <div class="row ">
             <section class="formacao-academica col-md-12 border">
+                
+                <div class="formacaoAcademica1 d-flex flex-row justify-content-center pt-2">
+                    <h4>Formação Acadêmica</h4>
+                </div>
 
-                <div class="formacaoAcademica">
-                    <h3>Formação Acadêmica</h3>
-                    <form name="instituicao" action="" method="GET">
-                        <label for="instituicao">Instituição</label>
-                        <input type="text" placeholder="" required="required"><br>
-                        <label for="formacao">Formação</label>
-                        <input type="text" placeholder="" required="required"><br>
-                        <label for="areaDeEstudo">Área de Estudo</label>
-                        <input type="text" placeholder="" required="required"><br>
-                        <label for="dataDeInicio">Data Início:</label>
-                    <?php
-                    require './assets/includes/comboBoxMesAno.html'
-                    ?><br>
+                <form class="formacaoAcademica pt-2" method="GET">
+                    <div class="instituicao form-group d-flex flex-row justify-content-center pt-3">
+                        <label class="pr-2 pt-2" for="instituicao">Instituição</label>
+                        <input type="text" class="form-control" id="instituicao" placeholder="">
+                    </div>
+                    <div class="formacao form-group d-flex flex-row justify-content-center">
+                        <label class="pr-2 pt-2" for="formacao">Formação</label>
+                        <input type="text" class="form-control" id="formacao" placeholder="">
+                    </div>
+                </form>
+                
+                <div class="data pt-2">
+                    <label class="pr-2 pt-2" for="dataInicio">Data início</label>
+                        <?php
+                            require './assets/includes/comboBoxMesAno.html'
+                        ?><br>
             
-                        <label for="dataTermino">Data Término</label>
-                    <?php
-                    require './assets/includes/comboBoxMesAno.html'
-                    ?>
-                        <label for="descricao">Descrição</label>
-                        <textarea name="experiencia" id="" cols="30" rows=""></textarea>
-                    </form>
+                    <label class="pr-2 pt-2" for="dataTermino">Data término</label>
+                        <?php
+                            require './assets/includes/comboBoxMesAno.html'
+                        ?>
+                </div>
+
+                <div class="form-group pt-4">
+                    <label for="descricao">Descrição</label>
+                        <textarea class="form-control" id="descricao" rows="3"></textarea>
+                </div>
+
+                <form class="button d-flex justify-content-end pb-3" method="GET">
+                    <input class="cancelar btn btn-light bg-transparent text-danger p-1" type="button" value="Cancelar" onClick=""> 
+                    <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
+                </form>  
+
             </section>
         </div>
     </div>
 
-
-<br>
-<?php
-require './assets/includes/footerCurriculo.php';
-?>
-
+    <div class="rodape mt-3">
+        <footer>
+            <div class="logo">MigraJobs</div>
+            <br>© MigraJobs atividades de Internet, Ltda. Todos os direitos reservados.
+        </footer>
+    </div>
 
 
 

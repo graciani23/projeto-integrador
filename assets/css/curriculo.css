@@ -5,6 +5,38 @@
     text-decoration: none;
 }
 
+body {
+    background-color:#f6f7f9;
+
+}
+
+.dados-pessoais, .objetivo-profissional, .formacao-academica {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+h3, h4, h5 {
+    color: black;
+}
+
+option {
+    color: black;  
+}
+                    
+select {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    padding-right: 2px;
+}
+
+/* Foto */
+input {
+    height: 30px;
+    font-size: 13px;   
+}
+
+/* header */
 header {
     width: 100%;
     height: 100px;
@@ -22,6 +54,7 @@ header {
 .principal img {
     background-color: white;
 }
+
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -64,7 +97,6 @@ nav ul li a:hover {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-
 }
 
 .user {
@@ -92,17 +124,23 @@ header img {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+
 /* Dados Pessoais */
+
+
 .foto img {
-    width: 300px;
+    width: 250px;
+    margin-top: 15px;
+    border-radius: 10px;
+
 }
 
 .foto form input {
     width: 55.5%;
 }
 
-.dados-pessoais h4 {
-    color: black;
+.dadosPessoais {
+    background-color: rgb(231, 231, 238);
 }
 
 .dados-pessoais label, input {
@@ -110,51 +148,154 @@ header img {
     padding-right: 30px;
 }
 
-.nome {
-    width: 70% ;
-}
-
 .button input {
     font-size: 14px;
 }
 
-.redes-sociais img {
-    width: 30px;
+
+
+/* Alinhando input Dados Pessoais*/
+.nome input {
+    width: 50%;
 }
 
 .dataNascimento input {
-    width: 40%;
+    width: 50%;
 }
 
-.idadeDocumento .form-group input{
-    width: 40%;
+.idade input{
+    width: 50%;
+
+}
+
+.documento input {
+    width: 50%;
+}
+
+.redes-sociais, .nome, .dataNascimento, .idade, .documento, .sexo, .estadoCivil {
+    padding-right: 150px;
 }
 
 .estadoCivil select {
     height: 30px;
 }
 
-option {
-    color: black;  
+
+/* Alinhando input Endereço*/
+
+.enderecoCompleto input {
+    width: 50%;
+    padding: 6px 12px;
 }
 
-select {
-    width: 40%;
-    height: 30px;
-    border-radius: 5px;
-    padding-right: 2px;
-}
+.endereco1 {
+    background-color: rgb(231, 231, 238);
+    margin-bottom: 40px;
 
+}
 .endereco input {
-    width: 97%;
+    width: 70%;
+}
+.complemento input {
+    width: 70%;
 }
 
-.cidade input {
-    width: 90%;
+.cep, .endereco, .complemento, .cidade, .estado {
+    padding-right: 150px;
 }
 
+
+/* Alinhando input Contato*/
+.contatos {
+    background-color: rgb(231, 231, 238);
+    margin-bottom: 30px;
+}
+
+.email input {
+    width: 60%;
+}
+
+.telefone input {
+    width: 40%;
+}
+
+.celular input {
+    width: 40%;
+}
+
+.email, .telefone, .celular {
+    padding-right: 150px;
+
+}
 .info-contato input {
     width: 40%;
     height: 30px;
     border-radius: 5px;
+}
+
+.redes-sociais img {
+    width: 30px;
+}
+
+
+/* Objetivo profissional */
+.objetivo-profissional label {
+    color: black;
+}
+
+.objetivoProfissional {
+    background-color: rgb(231, 231, 238);
+    margin: 20px 0 30px 0 ;
+}
+
+.cargo input {
+    width: 60%;
+}
+.cargo {
+    padding-right: 150px;
+}
+.areasInteresses {
+    padding-right: 150px;
+}
+
+.meses {
+    width: 50px;
+}
+
+.anos {
+    width: 60px;
+}
+/* Formação academica */
+
+.formacaoAcademica1 {
+    background-color: rgb(231, 231, 238);
+    margin: 20px 0 30px 0 ;
+}
+
+.instituicao input {
+    width: 60%;
+}
+
+.formacao input {
+    width: 60%;
+}
+
+
+.formacao-academica label, input {
+    color: black;
+}
+
+.formacaoAcademica > input{
+    height: 60%,
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #343A40;
+    font-family: Montserrat;
+    font-size: 12px;
+    display: inline-block;
+    
 }
