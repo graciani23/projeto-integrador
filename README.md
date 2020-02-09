@@ -26,3 +26,18 @@ O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, 
 * CSS;
 * JavaScript;
 * PHP
+
+## Time:
+* Graciani Sousa
+Administradora por formação, apaixonada por tecnologia e pelo Nino, meu shitzu!<br/>
+Sou estudante de Back-end na {reprograma} e Desenvolvimento Web Full Stack - Digital House.<br/>
+Meu objetivo na área de tecnologia é resolver problemas e desenvolver soluções que facilitem o dia a dia das pessoas!<br/><br/>
+
+* Isa Mary Kusuki
+* Stephanie Vapsys
+* Tatiana Suto
+* Jeferson Silva
+
+<p align="center"> 
+<img src="https://66.media.tumblr.com/84df2849675395d4acafa8859e6813bd/tumblr_mi9n4mOf5k1rnrp3qo1_500.gif">
+</p>
