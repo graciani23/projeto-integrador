@@ -1,5 +1,5 @@
 # Projeto integrador - Digital House
-Visa colocar em prática todo conteúdo que nos foi passado, integrando todas as tecnologias para um produto de ponta a ponta.
+Visa colocar em prática todo conteúdo que nos foi passado, integrando todas as tecnologias a fim de criar um produto de ponta a ponta.
 
 ## Objetivo
 O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, fazendo com que seus conhecimentos e experiências anteriores sejam melhor aproveitados.
