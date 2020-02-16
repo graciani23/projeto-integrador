@@ -200,7 +200,7 @@
                     <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
                 </form>
             </section>
-        </div>
+       <!-- </div>
  <!-- TÉRMINO DA 1° GRID -->
 
 
@@ -270,15 +270,8 @@
                 <input class="salvar btn btn-primary p-1" type="submit" value="Salvar" onCLick=""> 
             </form>
 
-        </section>
-    </div>
-
-<!-- INÍCIO DA 3° GRID - md 12 -->
-<!-- FORMAÇÃO ACADEMICA -->
-    <div class="container">
-        <div class="row ">
-            <section class="formacao-academica col-md-12 border">
-                
+        
+    
                 <div class="formacaoAcademica1 d-flex flex-row justify-content-center pt-2">
                     <h4>Formação Acadêmica</h4>
                 </div>
@@ -326,7 +319,7 @@
             <br>© MigraJobs atividades de Internet, Ltda. Todos os direitos reservados.
         </footer>
     </div>
-
+</div>
 
 
 

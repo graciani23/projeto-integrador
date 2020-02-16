@@ -30,11 +30,11 @@
     
 
     <?php
-        require('./assets/includes/footer.php');
+        require './assets/includes/footer.php';
     ?>
     
     <link rel="stylesheet" href="assets/css/estiloCadUsuarioEmpresa.css">
-    <link rel="stylesheet" href="assets/css/estiloFooter.css">
+    <link rel="stylesheet" href="./assets/css/estilofooterqs.css">
     <link rel="stylesheet" href="assets/css/estiloMenuNav.css">
 </body>
 </html>

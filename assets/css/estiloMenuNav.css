@@ -37,6 +37,7 @@ nav {
     padding-top: 10px;
 }
 
+
 @media (max-width: 775px) {
     .container {
         display: flex;
