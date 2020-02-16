@@ -25,7 +25,7 @@
                 <input type="radio" name="genero" id="feminino" value="option1">
                 <label for="feminino">Feminino</label>
             </div>
-            <div>
+            <div class="nasc">
                 <label class="labelForm" for="data">Data de nascimento</label>
                 <input type="date" value="2011-08-19" id="data" placeholder="Data de nascimentos">
             </div>

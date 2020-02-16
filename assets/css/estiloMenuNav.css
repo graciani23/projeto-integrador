@@ -36,3 +36,55 @@ nav {
 .img-cabecalho p {
     padding-top: 10px;
 }
+
+@media (max-width: 775px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        align-content: space-around;
+        align-items: center;
+        padding: 10px;
+   }
+
+   ul li {
+       padding: 2px;
+       flex-grow: 2;
+       flex-basis: auto;
+       text-align: center;
+    }
+
+    .img-cabecalho {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-device-width: 620px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul {
+        padding: 2px;
+        flex-direction: column;
+    }
+
+    ul li {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-device-width: 440px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
