@@ -33,9 +33,12 @@ O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, 
 Sou estudante de Back-end na {reprograma} e Desenvolvimento Web Full Stack - Digital House.<br/>
 Meu objetivo na área de tecnologia é resolver problemas e desenvolver soluções que facilitem o dia a dia das pessoas!<br/><br/>
 
-* Isa Mary Kusuki -
+* Isa Mary Kusuki Yabiku - Natureza me encanta, principalmente pôr do sol! Tenho como hobby praticar esportes. <br/>
+Sou Bacharel em Ciência Contábeis, mas descobri uma nova paixão, a tecnologia. <br/>
+Estudante de Desenvolvimento Web Full Stack - Digital House. <br/>
+Descobri que programamos para pessoas (profissionais e usuários) e por isso, meu objetivo além de resolver bugs, é fazer um código com fácil entendimento e com um bom desempenho.<br/>
+
 * Stephanie Vapsys -
-* Tatiana Suto -
 * Jeferson Silva -
 
 <p align="center"> 
