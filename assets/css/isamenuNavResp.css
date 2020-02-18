@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+li {
+    padding-left: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:rgb(242, 181, 68)!important;
+    font-weight: bold;
+    
+}
+
+
+.nav-link:hover {
+    background-color:rgb(242, 181, 68);
+    color: rgb(0, 59, 96)!important;
+    border-radius: 70px;
+    
+}
+
+img {
+    width: 40px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+p {
+    color:rgb(242, 181, 68)!important;
+    
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 900px){
+    .logo {
+        font-size: 150%;
+    }
+    .navbar-toggler {
+        width: 15%;
+    }
+    .navbar-toggler:hover {
+        background-color: #802A73;
+    }
+    li:hover {
+        background-color:rgb(242, 181, 68);
+        color: rgb(0, 59, 96)!important;
+        border-radius: 60px; 
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .logo {
+        font-size: 120%;
+    }
+    .navbar-toggler {
+        width: 20%;
+    }
+}
+

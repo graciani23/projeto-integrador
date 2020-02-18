@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="principal">
-            <div class="logo"><a href="sobre-nos.php">MigraJobs</a></div>
+            <div class="logo"><a href="index.php">MigraJobs</a></div>
 
             <nav>
                 <ul>

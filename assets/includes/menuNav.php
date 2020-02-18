@@ -1,7 +1,7 @@
 <nav>
     <div class="container">
         <ul>
-            <li><a href="sobre-nos.php">Sobre nós</a></li>
+            <li><a href="index.php">Sobre nós</a></li>
             <li><a href="cad-log-usuario.php">Área do Usuário</a></li>
             <li><a href="cad-log-empresa.php">Área da Empresa</a></li>
             <li><a href="#">Contatos</a></li>
