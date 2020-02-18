@@ -27,16 +27,14 @@
 
 .fundo .botao {
     padding: 16px 48px 18px;
-    width:20%;
     margin:0 auto;
-    background:rgb(128, 42, 115);
+    background:#361563;
     color:white;
     display:block;
     border-radius: 500px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     letter-spacing: .2rem;
-    box-shadow: 2px -2px  blueviolet;
     font-weight: 700;
 
     }
@@ -126,7 +124,7 @@ main .h3 {
 
 }
 
- button {
+ .entrar {
     background-color: rgb(54, 21, 99)!important;
     color: white!important;
     margin-top: 10px!important;
@@ -212,4 +210,109 @@ main .row .senha:hover{
 
 .form-group {
     margin-bottom: 0rem!important;
+}
+
+/*RESPONSIVIDADE*/
+
+@media only screen and (max-width: 400px){
+ 
+    .fundo .h2{
+        font-size: 50px;
+    }
+   main .h3 {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+   }
+    .form {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .quem {
+            text-align: center;
+            font-size: 40px;
+            padding-top: 10px;
+
+    
+        }
+    
+        .somos {
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+    
+        }
+        
+        .psobrenos {
+            display: block;
+            margin: 5px;
+    
+        }
+        section{
+            padding: 0px!important;
+       }
+}
+
+@media only screen and (max-width: 800px){
+
+    .form {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .form-contato {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .quem {
+        text-align: center;
+
+    }
+
+    .somos {
+        text-align: center;
+    }
+    section{
+        padding: 0px!important;
+   }
+
+}
+
+@media only screen and (max-width: 500px){
+
+.form-contato {
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+
+
+.quem {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+
+
+}
+
+.somos {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+.psobrenos{
+margin-left: 0px;
+
+}
+
+section{
+    padding: 0px!important;
+}
+}
+
+@media only screen and (max-width: 320px){
+    section{
+     padding: 0px!important;
+}
 }
