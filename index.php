@@ -21,7 +21,7 @@
         <button class="botao">
             <a href="#cadastro" class="participe">Participe</a>
         </button>
-        <br> <br> <br>
+        <br><br><br>
     </div>
     <div class="fundo">
     </div>
