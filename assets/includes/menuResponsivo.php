@@ -26,10 +26,10 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Área do Usuário</a>
+        <a class="nav-link" href="cad-log-usuario.php">Área do Usuário</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Área da Empresa</a>
+        <a class="nav-link" href="cadastroEmpresa.php" tabindex="-1" aria-disabled="true">Área da Empresa</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contato</a>
