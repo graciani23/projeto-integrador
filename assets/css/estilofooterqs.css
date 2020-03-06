@@ -10,14 +10,14 @@ footer {
 
 
 .corpo-rodape {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: flex-end;
     align-content: center;
 }
 
 .footer-idioma {
-    display: flex;
+    /* display: inline-block; */
     align-items: center;
 }
 
@@ -29,4 +29,3 @@ footer {
 .footer-idioma img {
     width: 50px;
 }
-

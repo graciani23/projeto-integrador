@@ -216,15 +216,17 @@ main .row .senha:hover{
 
 @media only screen and (max-width: 400px){
  
-    .fundo .h2{
-        font-size: 50px;
-    }
-   main .h3 {
-        font-size: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-   }
-    .form {
+.fundo .h2 {
+    font-size: 50px;
+}
+
+main .h3 {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.form {
             margin-right: 10px;
             margin-left: 10px;
         }
@@ -273,46 +275,42 @@ main .row .senha:hover{
     .somos {
         text-align: center;
     }
-    section{
+    
+    section {
         padding: 0px!important;
    }
 
 }
 
 @media only screen and (max-width: 500px){
-
 .form-contato {
     margin-right: 5%;
     margin-left: 5%;
-    }
-
+}
 
 .quem {
     text-align: center;
     font-size: 40px;
     padding-top: 10px;
-
-
 }
 
 .somos {
     text-align: center;
     font-size: 40px;
     padding-bottom: 10px;
-
-}
-.psobrenos{
-margin-left: 0px;
-
 }
 
-section{
-    padding: 0px!important;
-}
+.psobrenos {
+    margin-left: 0px;
 }
 
-@media only screen and (max-width: 320px){
-    section{
-     padding: 0px!important;
+section {
+        padding: 0px!important;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    section {
+        padding: 0px!important;
+    }
 }
