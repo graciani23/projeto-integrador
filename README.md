@@ -44,7 +44,9 @@ Sou Bacharel em Ciência Contábeis, mas descobri uma nova paixão, a tecnologia
 Estudante de Desenvolvimento Web Full Stack - Digital House. <br/>
 Descobri que programamos para pessoas (profissionais e usuários) e por isso, meu objetivo além de resolver bugs, é fazer um código com fácil entendimento e com um bom desempenho.<br/>
 
-* Stephanie Vapsys -
+* Stephanie Vapsys - Jornalista que escreve também em códigos <br/>
+Gosto de usar a tecnologia para desenvolver novos alternativas para os meios de comunicação. Sou formada em Comunicação Social - Jornalismo, pela Faculdade Cásper Líbero, e meu TCC foi uma revista digital totalmente interativa para tablet e smartphone. Na época, contei com ajuda de amigos programadores para transformar o conteúdo diagramado em código, mas senti que precisava aprender na prática sobre linguagem de programação. Passei quatro anos e meio em redação de revista tradicional e agora estudo Desenvolvimento Web Full Stack na Digital House. Descobri que além de comunicadora também posso ser uma ótima desenvolvedora! </br>  
+
 * Jeferson Silva -
 
 <p align="center"> 
