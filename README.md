@@ -31,7 +31,8 @@ O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, 
 * HTML;
 * CSS;
 * JavaScript;
-* PHP
+* PHP;
+* Laravel
 
 ## Time:
 * Graciani Sousa - Administradora por formação, apaixonada por tecnologia e pelo Nino, meu shitzu!<br/>
