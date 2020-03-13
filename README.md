@@ -20,7 +20,7 @@ O projeto tem como objetivo ajudar os refugiados na busca por vagas de emprego, 
     <td>Entregar principais telas através do figma</td>
     <td>Entrega das principais tela em HTML e CSS</td>
     <td>Responsividade</td>
-    <td>Entrega do model SQL</td>
+    <td>Entrega do DER, SQL</td>
     <td>Criar projeto no laravel, criar rotas e controllers</td>
     <td></td>
     <td></td>
@@ -45,7 +45,7 @@ Estudante de Desenvolvimento Web Full Stack - Digital House. <br/>
 Descobri que programamos para pessoas (profissionais e usuários) e por isso, meu objetivo além de resolver bugs, é fazer um código com fácil entendimento e com um bom desempenho.<br/>
 
 * Stephanie Vapsys - Jornalista que escreve também em códigos <br/>
-Gosto de usar a tecnologia para desenvolver novos alternativas para os meios de comunicação. Sou formada em Comunicação Social - Jornalismo, pela Faculdade Cásper Líbero, e meu TCC foi uma revista digital totalmente interativa para tablet e smartphone. Na época, contei com ajuda de amigos programadores para transformar o conteúdo diagramado em código, mas senti que precisava aprender na prática sobre linguagem de programação. Passei quatro anos e meio em redação de revista tradicional e agora estudo Desenvolvimento Web Full Stack na Digital House. Descobri que além de comunicadora também posso ser uma ótima desenvolvedora! </br>  
+Gosto de usar a tecnologia para desenvolver novas alternativas para os meios de comunicação. Sou formada em Comunicação Social - Jornalismo, pela Faculdade Cásper Líbero, e meu TCC foi uma revista digital totalmente interativa para tablet e smartphone. Na época, contei com ajuda de amigos programadores para transformar o conteúdo diagramado em código, mas senti que precisava aprender na prática sobre linguagem de programação. Passei quatro anos e meio em redação de revista tradicional e agora estudo Desenvolvimento Web Full Stack na Digital House. Descobri que além de comunicadora também posso ser uma ótima desenvolvedora! </br>  
 
 * Jeferson Silva -
 
