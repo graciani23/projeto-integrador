@@ -11,7 +11,6 @@
   <title></title>
 </head>
 <body>
-<<<<<<< HEAD
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,32 +36,6 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-=======
-  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">
-        <!-- MigraJobs logo no header de navegação -->
-        <span class="logo">MigraJobs</span>
-      </a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Área do Usuário</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Área da Empresa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contato</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
->>>>>>> abb52607ad5c14d4970babd785d0423d4538e2d6
         <div class="idioma">
           <p style="color:white;margin-bottom:0rem;font-size:14px">Selecione o seu idioma: </p>
         </div>
